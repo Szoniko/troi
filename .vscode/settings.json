@@ -1,0 +1,24 @@
+{
+    "window.zoomLevel": 1,
+    "fileHeaderComment.parameter":{
+        "*":{
+            "commentbegin": "/*",
+            "commentprefix": " *",
+            "commentend": " */",
+            "company": "Spencer Studios",
+            "user": "Szoniko",
+            "license": "Apache 2.0 License",
+        }
+    },
+    "fileHeaderComment.template":{
+        "*":[
+            "${commentbegin}",
+            "${commentprefix} Created on ${date}, by ${user}",
+            "${commentprefix}",
+            "${commentprefix} Copyright (c) ${year} ${company}",
+            "${commentprefix}",
+            "${commentprefix} ${license}",
+            "${commentend}",
+        ]
+    }
+}
